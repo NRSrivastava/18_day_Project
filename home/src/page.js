@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from './header';
 import LeftSection from './leftSection';
-import MiddleSection from './middleSection';
+//import MiddleSection from './middleSection';
 import RightSection from './rightSection';
+import "./page.css"
 
 class FullPage extends React.Component{
     constructor(props){
@@ -10,14 +11,11 @@ class FullPage extends React.Component{
     }
     render(){
         return(
-            <div>
-                <Header/>
-                <div style={{margin:"20px 0px",display:'flex',flexDirection:"row"}}>
-                <LeftSection/>
-                <MiddleSection/>
-                <RightSection/>
-                </div>
-            </div>
+            <>
+            <Header/>
+            <LeftSection/>
+            <RightSection/>
+            </>
         );
     }
 }

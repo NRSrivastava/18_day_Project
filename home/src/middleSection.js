@@ -4,7 +4,7 @@ class middleSection extends React.Component{
         super(props);
     }
     render(){
-        return(<div style={{backgroundColor:"grey",height:'100%',margin:"10px",borderRadius:"15px",width:'33%'}}>
+        return(<div style={{backgroundColor:"grey",height:'100px',margin:"10px",borderRadius:"15px",width:'33%'}}>
         </div>);
     }
 }

@@ -1,8 +1,10 @@
 .header{
+    position: fixed;
     height: 85px;
     width: 100%;
+    background-color: white;
     box-sizing: border-box;
-    display: flex;
+    display:flex;
     justify-content: space-between;
     padding: 15px 20px;
     z-index:100;
@@ -19,18 +21,26 @@
 .header > .middle{
     display: flex;
     justify-content: center;
+    align-items: center;
     width:60%;
 }
+/* 
 #searchBox{
-    /* color: blueviolet; 
+    color: blueviolet; 
     align-items: center;
-    background-color: #eff2f5;*/
-    
-}
+    background-color: #eff2f5;
+}*/
 .header > .right{
     display: flex;
     width: 20%;
     margin-left: 20px;
     align-items: center;
     justify-content: space-around;
+    z-index: 2;
 }
+
+@media screen and (max-width:977px){
+    .header>.right>.clickable>h4{
+        display: none;
+    }
+} 

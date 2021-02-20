@@ -1,0 +1,48 @@
+.sideBarRow{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.sideBarRow:hover{
+    background-color: lightgray !important;
+    border-radius: 10px;
+}
+.sideBarRow>h4{
+    margin: 0px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.sideBarRow>.icon{
+    font-size: xx-large;
+    color: #ca212e;
+}
+
+.leaderboard{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0px;
+    /* overflow: hidden; */
+    border-radius: 10px;
+    background-color: darkgray;   
+}
+
+.leaderboard>.heading{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.leaderboard>.heading>h4{
+    margin: 0px;
+    margin-left: 20px;
+    font-weight: 600;
+}
